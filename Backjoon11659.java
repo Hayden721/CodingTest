@@ -10,7 +10,7 @@ public class Backjoon11659 {
         int dataNo = Integer.parseInt(st.nextToken()); // 입력받을 데이터 개수
         int quizNo = Integer.parseInt(st.nextToken()); // 질문 개수
         long[] S = new long[dataNo + 1]; // 합 배열 선언
-        st = new StringTokenizer(br.readLine());
+        st = new StringTokenizer(br.readLine()); // 배열에 넣을 데이터 입력
 
         for(int i=1; i<=dataNo; i++) { // 합 배열
             S[i] = S[i-1] + Integer.parseInt(st.nextToken());
