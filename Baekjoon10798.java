@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 public class Baekjoon10798 {
 
     public static void main(String[] args) throws IOException {
-                BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         char[][] ch = new char[5][15];
         int max = 0; // 입력한 문자의 최대 길이
 
