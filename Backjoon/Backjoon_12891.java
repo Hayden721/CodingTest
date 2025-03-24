@@ -6,7 +6,6 @@ import java.util.StringTokenizer;
 
 
 
-
 public class Backjoon_12891 {
     static int myArr[];
     static int checkArr[];
